@@ -30,9 +30,7 @@ jobs:
       run: npm run build
 
     - name: Sync Capacitor Android
-      uses: ionic-team/capacitor-action@v3
-      with:
-        command: 'npx cap sync android'
+      run: npx cap sync android
 
     - name: Build Debug APK
       run: |
