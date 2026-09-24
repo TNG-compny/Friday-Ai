@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FRIDAY AI</string>
+    <string name="title_activity_main">FRIDAY AI</string>
+    <string name="package_name">com.friday.ai</string>
+    <string name="custom_url_scheme">com.friday.ai</string>
+    <string name="accessibility_service_description">FRIDAY AI Assistant Accessibility Service allows hands-free voice automation, app navigation, smart clicks, and system-level actions.</string>
+</resources>
