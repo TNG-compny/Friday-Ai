@@ -32,6 +32,11 @@ jobs:
     - name: Sync Capacitor Android
       run: npx cap sync android
 
+    - name: Fix Gradle Wrapper
+      run: |
+        cd android
+        gradle wrapper --gradle-version 8.5
+
     - name: Build Debug APK
       run: |
         cd android
